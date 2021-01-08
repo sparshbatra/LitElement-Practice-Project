@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>&lt;my-element> Demo</title>
+    <script type="module" src="index.js"></script>
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    Hi there!
+    <my-element> </my-element>
+    
+    <my-element2>
+      <p>I am a child content.</p>
+    </my-element2>
+    <my-element2>
+      <p>I am a child content.</p>
+      <p slot='slotName'>I am a child content too.</p>
+
+    </my-element2>
+    <my-element3 myProp = "updated prop : attribute to property conversion occurs"></my-element3>
+  </body>
+</html>

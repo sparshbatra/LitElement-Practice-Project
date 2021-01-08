@@ -1,0 +1,19 @@
+{
+  "name": "lit-element1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "es-dev-server": "^2.0.2",
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "es-dev-server --app-index index.html --node-resolve --watch --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
