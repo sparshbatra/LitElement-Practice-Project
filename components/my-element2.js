@@ -35,14 +35,7 @@ export class MyElement2 extends LitElement {
 
   static get properties() {
     return {
-      /**
-       * The name to say "Hello" to.
-       */
       name: {type: String},
-
-      /**
-       * The number of times the button has been clicked.
-       */
       count: {type: Number},
     };
   }
